@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "denovo"
+version = "0.1.0"
+description = ""
+authors = ["gustavorteuber <gugareis135@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1"
+djangorestframework = "^3.13.1"
+django-cors-headers = "^3.13.0"
+mysqlclient = "^2.1.1"
+pytz = "^2022.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
